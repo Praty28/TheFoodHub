@@ -1,0 +1,19 @@
+/* ================
+    Global Changes
+   ================ */
+   
+   
+
+/* ================
+    Elements
+   ================ */
+
+header {
+    border: 10px solid gray;
+    display: flex;
+}
+header nav { 
+    
+    list-style: none;
+
+}
