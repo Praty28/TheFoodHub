@@ -3,6 +3,7 @@
    ================ */
    
    body {
+    font-family: 'Courgette';
        
    }
 
@@ -16,6 +17,15 @@ header {
     left: 0;
     right: 0;
     top: 0;
+}
+
+header .firstNav {
+    background-color: rgb(204, 186, 22);
+    padding: 10px;
+    font-size: 1.5em;
+   
+    
+
 }
 header nav { 
     display: flex;
