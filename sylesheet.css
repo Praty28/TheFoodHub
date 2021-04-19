@@ -4,6 +4,7 @@
    
    body {
     font-family: 'Courgette';
+    background-color: rgba(209, 171, 124, 0.747);
        
    }
 
@@ -23,8 +24,8 @@ header .firstNav {
     background-color: rgb(204, 186, 22);
     padding: 10px;
     font-size: 1.5em;
+    text-align: center;
    
-    
 
 }
 header nav { 
@@ -34,6 +35,10 @@ header nav {
 
 header nav li {
     padding: 0px 10px 0px 10px;
+}
+
+header a{
+    color: rgba(255, 255, 255, 0.788);
 }
 
 /* ================
