@@ -9,8 +9,18 @@
    }
 
 /* ================
-    Nav Styling
+      Nav Styling
    ================ */
+   
+
+
+
+
+/* ========================
+    Nav Styling For Desktop
+   ======================== */   
+@media only screen and (min-width: 800px) {
+    
 
 header {
     background-color: rgb(207, 85, 85);
@@ -41,6 +51,7 @@ header a{
     color: rgba(255, 255, 255, 0.788);
 }
 
+}
 /* ================
    Page Content
    ================ */
