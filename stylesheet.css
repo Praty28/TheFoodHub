@@ -24,8 +24,8 @@ header div {
     flex-direction: column;
 }
 
-header nav { 
-    display: ;
+header .list-items { 
+    display: none;
     background-color: rgb(207, 85, 85);
     
     
@@ -96,6 +96,8 @@ header a{
        display: none;
    }
 
-   .hamburger:checked {
-       
+   .hamburger:checked ~ .list-items {
+       display: block;
+
+      
    }
