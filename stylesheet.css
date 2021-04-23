@@ -2,10 +2,13 @@
     Global Changes
    ================ */
    
-   body {
+  body {
     font-family: 'Courgette';
-    background-color: rgba(209, 171, 124, 0.747);
-       
+    background-color: rgba(209, 171, 124, 0.747);  
+   }
+
+   * {
+       --headerColor:rgb(204, 186, 22);
    }
 
 /* ================
@@ -26,13 +29,13 @@ header div {
 
 header .list-items { 
     display: none;
-    background-color: rgb(207, 85, 85);
+    background-color: var(--headerColor)
     
     
 }
 
 header .firstNav {
-    background-color: rgb(204, 186, 22);
+    background-color: var(--headerColor);
     padding: 10px;
     font-size: 1.5em;
     text-align: center;
@@ -89,15 +92,24 @@ header a{
    }
 
 /* ================
-    Components
+      Components
    ================ */
+
+/* === Buttons === */
 
    .hamburger {
        display: none;
    }
 
    .hamburger:checked ~ .list-items {
-       display: block;
-
-      
+       display: block; 
    }
+
+   label {
+       position: absolute;
+       top: 15px;
+       width: 18px;
+       background-color: black;
+       padding: 3px;
+       border-radius: 50px;
+       }
