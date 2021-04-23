@@ -16,6 +16,7 @@
    ================ */
 
 header {
+    position: relative;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
@@ -53,6 +54,7 @@ header .firstNav {
     
 
 header {
+    
     background-color: rgb(207, 85, 85);
     margin-top: -8px;
     margin-left: -8px;
@@ -61,6 +63,7 @@ header {
 }
 
 header .firstNav {
+    
     background-color: rgb(204, 186, 22);
     padding: 10px;
     font-size: 1.5em;
@@ -95,21 +98,32 @@ header a{
       Components
    ================ */
 
-/* === Buttons === */
+/* === Input & Label === */
 
-   .hamburger {
-       display: none;
+.hamburger {
+    display: none;
    }
 
-   .hamburger:checked ~ .list-items {
-       display: block; 
+.hamburger:checked ~ .list-items {
+    display: block; 
    }
 
-   label {
-       position: absolute;
-       top: 15px;
-       width: 18px;
-       background-color: black;
-       padding: 3px;
-       border-radius: 50px;
-       }
+.hamburgerLabel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+
+}
+
+.hamburgerLabel span,
+.hamburgerLabel span::before,
+.hamburgerLabel span::after {
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 2em;
+}
