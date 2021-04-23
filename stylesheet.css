@@ -1,0 +1,89 @@
+/* ================
+    Global Changes
+   ================ */
+   
+   body {
+    font-family: 'Courgette';
+    background-color: rgba(209, 171, 124, 0.747);
+       
+   }
+
+/* ================
+      Nav Styling
+   ================ */
+
+header {
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    
+}
+header div {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+header nav { 
+    display: ;
+    background-color: rgb(207, 85, 85);
+    
+    
+}
+
+header .firstNav {
+    background-color: rgb(204, 186, 22);
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+   
+
+}
+
+
+
+
+/* ========================
+    Nav Styling For Desktop
+   ======================== */   
+@media only screen and (min-width: 800px) {
+    
+
+header {
+    background-color: rgb(207, 85, 85);
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    
+}
+
+header .firstNav {
+    background-color: rgb(204, 186, 22);
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+   
+
+}
+header nav { 
+    display: flex;
+    list-style: none;
+}
+
+header nav li {
+    padding: 0px 10px 0px 10px;
+}
+
+header a{
+    color: rgba(255, 255, 255, 0.788);
+}
+
+}
+/* ================
+   Page Content
+   ================ */
+
+   h1{
+       
+      
+   }
