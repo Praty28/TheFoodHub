@@ -84,12 +84,6 @@ header .firstNav {
         padding: 0px 10px 0px 10px;
     }
 
-    header .list-items { 
-        display: inline-block;
-        background-color: var(--headerColor)
-        
-        
-    }
 
     header a{
         color: rgba(255, 255, 255, 0.788);
