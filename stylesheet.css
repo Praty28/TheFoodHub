@@ -36,11 +36,12 @@ header .list-items {
 }
 
 header .firstNav {
+    display: block;
     background-color: var(--headerColor);
     padding: 10px;
     font-size: 1.5em;
     text-align: center;
-   
+  
 
 }
 
@@ -105,7 +106,7 @@ header a{
    }
 
 .hamburger:checked ~ .list-items {
-    display: block; 
+    display: inline-block; 
    }
 
 .hamburgerLabel {
