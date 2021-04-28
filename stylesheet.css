@@ -9,6 +9,7 @@
 
    * {
        --headerColor:rgb(204, 186, 22);
+       --navbarColor:rgb(207, 85, 85);
    }
 
 /* ================
@@ -75,6 +76,8 @@ header .firstNav {
     header .list-items-nav { 
         display: flex;
         list-style: none;
+        flex-direction: row;
+        background-color: var(--navbarColor);
     }
 
     header nav li {
