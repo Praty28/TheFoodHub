@@ -54,36 +54,48 @@ header .firstNav {
 @media only screen and (min-width: 800px) {
     
 
-header {
+    header {
+        
+        background-color: rgb(207, 85, 85);
+        margin-top: -8px;
+        margin-left: -8px;
+        margin-right: -8px;
+        
+    }
+
+    header .firstNav {
+        
+        background-color: rgb(204, 186, 22);
+        padding: 10px;
+        font-size: 1.5em;
+        text-align: center;
     
-    background-color: rgb(207, 85, 85);
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-    
-}
 
-header .firstNav {
-    
-    background-color: rgb(204, 186, 22);
-    padding: 10px;
-    font-size: 1.5em;
-    text-align: center;
-   
+    }
+    header nav { 
+        display: flex;
+        list-style: none;
+    }
 
-}
-header nav { 
-    display: flex;
-    list-style: none;
-}
+    header nav li {
+        padding: 0px 10px 0px 10px;
+    }
 
-header nav li {
-    padding: 0px 10px 0px 10px;
-}
+    header .list-items { 
+        display: inline-block;
+        background-color: var(--headerColor)
+        
+        
+    }
 
-header a{
-    color: rgba(255, 255, 255, 0.788);
-}
+    header a{
+        color: rgba(255, 255, 255, 0.788);
+    }
+
+
+    #spanDesktop {
+        display: none;
+    } 
 
 }
 /* ================
