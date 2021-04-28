@@ -28,7 +28,7 @@ header div {
     flex-direction: column;
 }
 
-header .list-items { 
+header .list-items-nav { 
     display: none;
     background-color: var(--headerColor)
     
@@ -117,7 +117,7 @@ header .firstNav {
     display: none;
    }
 
-.hamburger:checked ~ .list-items {
+.hamburger:checked ~ .list-items-nav {
     display: inline-block; 
    }
 
@@ -126,7 +126,7 @@ header .firstNav {
     top: 0;
     left: 0;
     height: 100%;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: flex;
     align-items: center;
 
