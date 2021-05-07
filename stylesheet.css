@@ -21,7 +21,7 @@
 header {
     position: relative;
     margin-top: -8px;
-    margin-left: -8px;
+    margin-left: -16px;
     margin-right: -8px;
     
 }
@@ -51,52 +51,8 @@ header .firstNav {
 
 
 
-/* ========================
-    Nav Styling For Desktop
-   ======================== */   
-@media only screen and (min-width: 800px) {
-    
-
-    header {
-        
-        background-color: rgb(207, 85, 85);
-        margin-top: -8px;
-        margin-left: -8px;
-        margin-right: -8px;
-        
-    }
-
-    header .firstNav {
-        
-        background-color: rgb(204, 186, 22);
-        padding: 10px;
-        font-size: 1.5em;
-        text-align: center;
-    
-
-    }
-    header .list-items-nav { 
-        display: flex;
-        list-style: none;
-        flex-direction: row;
-        background-color: var(--navbarColor);
-    }
-
-    header nav li {
-        padding: 0px 10px 0px 10px;
-    }
 
 
-    header a{
-        color: rgba(255, 255, 255, 0.788);
-    }
-
-
-    #spanDesktop {
-        display: none;
-    } 
-
-}
 /* ================
    Page Content
    ================ */
@@ -150,4 +106,56 @@ header .firstNav {
 
 .hamburgerLabel span::after {
     content: "";
-    top: 5px;
+    top: 5px
+}
+
+
+
+/* ========================
+    Nav Styling For Desktop
+   ======================== */   
+
+@media only screen and (min-width: 800px) {
+    
+
+    header {
+        
+        background-color: rgb(207, 85, 85);
+        margin-top: -8px;
+        margin-left: -16px;
+        margin-right: -8px;
+        
+    }
+
+    header .firstNav {
+        
+        background-color: rgb(204, 186, 22);
+        padding: 10px;
+        font-size: 1.5em;
+        text-align: center;
+    
+
+    }
+    header .list-items-nav { 
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        background-color: var(--navbarColor);
+    }
+
+    header nav li {
+        padding: 0px 10px 0px 10px;
+    }
+
+
+    header a{
+        color: rgba(255, 255, 255, 0.788);
+    }
+
+
+    #spanDesktop {
+        display: none;
+    } 
+
+}
+
