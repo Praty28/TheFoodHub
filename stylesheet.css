@@ -59,10 +59,7 @@ header .firstNav {
    Page Content
    ================ */
 
-   h1{
-       
-      
-   }
+   
 
 /* ================
       Components
@@ -75,7 +72,7 @@ header .firstNav {
    }
 
 .hamburger:checked ~ .list-items-nav {
-    display: inline-block; 
+    display: block; 
    }
 
 .hamburgerLabel {
@@ -135,9 +132,9 @@ header .firstNav {
         padding: 10px;
         font-size: 1.5em;
         text-align: center;
-    
-
     }
+
+
     header .list-items-nav { 
         display: flex;
         list-style: none;
@@ -147,6 +144,7 @@ header .firstNav {
 
     header nav li {
         padding: 0px 10px 0px 10px;
+        display: inline;
     }
 
 
