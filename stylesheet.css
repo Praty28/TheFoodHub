@@ -35,7 +35,8 @@ header .list-items-nav {
     display: none;
     background-color: var(--headerColor)
     
-    
+header li {
+    margin-left: 1em;
 }
 
 header .firstNav {
