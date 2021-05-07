@@ -5,11 +5,13 @@
   body {
     font-family: 'Courgette';
     background-color: rgba(209, 171, 124, 0.747);  
+    margin-left: 1em;
    }
 
    * {
        --headerColor:rgb(204, 186, 22);
        --navbarColor:rgb(207, 85, 85);
+      
    }
 
 /* ================
