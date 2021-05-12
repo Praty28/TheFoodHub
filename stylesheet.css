@@ -59,6 +59,12 @@ header .firstNav {
    Page Content
    ================ */
 
+   /* === Image Styles === */
+
+   .switchingImages img {
+       width: 100%;
+   }
+
    
 
 /* ================
