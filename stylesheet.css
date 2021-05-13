@@ -62,30 +62,37 @@ header .firstNav {
    /* === Image Styles === */
 
    .switchingImages {
-       position:relative;
+    overflow: hidden;
     
       
    }
 
-   .switchingImages img {
-       position: absolute;
-       width: 100%;
+   .switchingImages figure {
+        position:relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 5s slider infinite;
    }
 
-   .switchingImages img:nth-child(1) {
-       z-index: 99;
-       opacity: 1;
-       animation-name: fadeImages;
-       animation-duration: 3s;
-       animation-iteration-count: infinite;
-       animation-timing-function: ease-in-out;
+   .switchingImages figure img {
+       width: 10%;
+       float: left;
    }
 
-   @keyframes fadeImages {
-       
-       100% {opacity: 0;}
+   @keyframes slider {
+       0% {
+           left: 0;
+       }
+       20% {
+           left: 0;
+       }
+       25% {
+           left: -100%;
+       }
    }
-   
+
+  
 
 /* ================
       Components
