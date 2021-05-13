@@ -6,6 +6,7 @@
     font-family: 'Courgette';
     background-color: rgba(209, 171, 124, 0.747);  
     margin-left: 1em;
+    margin-right: 1em;
    }
 
    * {
@@ -22,7 +23,7 @@ header {
     position: relative;
     margin-top: -8px;
     margin-left: -16px;
-    margin-right: -8px;
+    margin-right: -16px;
     
 }
 header div {
@@ -173,7 +174,7 @@ header .firstNav {
         background-color: rgb(207, 85, 85);
         margin-top: -8px;
         margin-left: -16px;
-        margin-right: -8px;
+        margin-right: -16px;
         
     }
 
