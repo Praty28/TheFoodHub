@@ -160,6 +160,28 @@ header .firstNav {
     top: 5px
 }
 
+/* ==================
+      Breakfast grid
+   ================== */
+
+.bfItems{
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-gap: 1em;
+}
+
+.bfContainer li {
+    list-style: none;
+}
+
+
+   
+
+
+
+
+
 
 
 /* ========================
