@@ -164,15 +164,22 @@ header .firstNav {
       Breakfast grid
    ================== */
 
-.bfItems{
+.bfItemsContainer{
     padding-left: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
-    grid-gap: 1em;
+    grid-gap: 0.5em;
+    justify-content: center;
+    align-items: center;
 }
 
-.bfContainer li {
+.menuDiv li {
     list-style: none;
+}
+
+.menuDiv img {
+    width: 100px;
+    border-radius: 50px;
 }
 
 
